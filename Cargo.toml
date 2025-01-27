@@ -1,0 +1,12 @@
+[package]
+name = "confused_deputy"
+version = "0.1.0"
+edition = "2021"
+authors = ["freddd"]
+
+[dependencies]
+hcl-rs = "0.18.3"
+
+[[bin]]
+name = "confused_deputy"
+path = "src/main.rs"
